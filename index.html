@@ -1,13 +1,16 @@
 <html>
 	<head>
 		<title>Rest CMS - Home</title>
+		<meta charset="UTF-8">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="style.css" />		
 	</head>
 	<body>
 		<header>
 			<div class="logo">
-				<img src="" alt="">
+				<img src="http://4.bp.blogspot.com/_UYjeWR2VN3o/S84fr6-glKI/AAAAAAAAPpU/u2p_Yh3bgzU/s200/Starbucks-logo.gif" alt="">
 			</div>
+			<div class="menu">
 				<div class="slogan">
 					Delivery (11)1111-1111
 				</div>
@@ -19,60 +22,71 @@
 						<li>Contato</li>
 					</ul>
 				</nav>
+			</div>
 		</header>
 		<section id="content"> <!-- Content -->
-			<article class="widget widget-slideshow"> <!-- widget genérico -->
+			<article class="widget widget-slideshow large"> <!-- widget genérico -->
 				slideshow
 			</article>
-			<article class="widget widget-pratos">
-				<hgroup class="title">
+			<article class="widget widget-pratos medium">
+				<div class="title">
 					<h1>Pratos do Dia</h1>
-				</hgroup>
-				<hgroup class="week">
-					<h2>Segunda Feira - Strogonoff</h2>
-					<h2>Terça Feira - Torrada</h2>
-					<h2>Quarta Feira - Ravioli</h2>
-					<h2>Quinta Feira - Tomates Secos</h2>
-					<h2>Sexta Feira - Feijoada</h2>
-					<h2>Sábado - Sushi</h2>
-				</hgroup>
+				</div>
+				<ul>
+					<li>Segunda Feira - Strogonoff</li>
+					<li class="odd">Terça Feira - Torrada</li>
+					<li>Quarta Feira - Ravioli</li>
+					<li class="odd">Quinta Feira - Tomates Secos</li>
+					<li>Sexta Feira - Feijoada</li>
+					<li class="odd">Sábado - Sushi</li>
+				</ul>
 			</article>
-			<article class="widget widget-expediente"> <!-- widget genérico -->
-				<span class="titulo">
-					<h1>Horário de Expediente</h1>
-				</span>
-				<span class="descricao">
-					<h2>Seg - Sex: das 08h às 22h</h2>
-					<h2>Sábado: Das 08h as 16h</h2>
-				</span>			
+			<article class="widget widget-promocao small"> <!-- widget genérico -->
+				<div class="title">
+					Horário de Expediente
+				</div>
+				<div>
+					Seg - Sex: das 08h às 22h
+					<br/>Sábado: Das 08h as 16h
+				</div>
+					
 			</article>
-			<article class="widget widget-promocao"> <!-- widget genérico -->
-				<hgroup class="title"> <!-- wrapper do texto tipo: title. *qual tag usar pros wrappers ?-->
-					<h1>Título Promocional</h1>
-				</hgroup>
-				<hgroup class="description"> <!-- wrapper do texto tipo: description -->
-					<h2>Descrição Promocional</h2>		
-				</hgroup>
-				<img class="image-promocao" src="" alt=""/>
+			<article class="widget widget-promocao small"> <!-- widget genérico -->
+				<div class="title">
+					Título Promocional
+				</div>
+				<div>
+					Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. 
+				</div>
+				<img  src="http://www.slate.com/content/dam/slate/articles/life/food/2012/11/121106_FOOD_Curry.jpg.CROP.rectangle3-large.jpg" alt=""/>
 			</article>
-			<article class="widget widget-promocao2"> <!-- widget genérico -->
-				<img class="image-promocao2" src="" alt=""/>
-				<span class="">
-					<h1>Título Promocional 2</h1>
-				</span>
-				<span>
-					<h2>Descrição Promocional 2</h2>
-				</span>
+			<article class="widget widget-promocao small"> <!-- widget genérico -->
+				<img src="http://www.slate.com/content/dam/slate/articles/life/food/2012/11/121106_FOOD_Curry.jpg.CROP.rectangle3-large.jpg" alt=""/>
+				<div class="title">
+					Título Promocional
+				</div>
+				<div>
+					Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. 
+				</div>
+			</article>
+			<article class="widget widget-promocao small"> <!-- widget genérico -->
+				<img src="http://www.slate.com/content/dam/slate/articles/life/food/2012/11/121106_FOOD_Curry.jpg.CROP.rectangle3-large.jpg" alt=""/>
+				<div class="title">
+					Título Promocional
+				</div>
+				<div>
+					Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. 
+				</div>
 			</article>
 		</section>
 		<footer>
-			<span class="contact">
-				<h2>Rua Anakin Skywalker, 666 - Tatooine</h2>
-				<h2>Telefone: 0000-0000</h2>
-			</span>
-			<span class="thaRestLogo">
+			<div class="contact">
+				Rua Anakin Skywalker, 666 - Tatooine
+				<br/>Telefone: 0000-0000
+			</div>
+			<div class="thaRestLogo">
 				<h1>Powered by nois</h1>
-			</span class="">
+			</div class="">
 		</footer>
 	</body>
 </html>
