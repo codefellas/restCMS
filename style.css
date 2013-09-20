@@ -31,8 +31,10 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
 	line-height: 1;
-	font-size:1em;
+	font-size:0.8em;
+	color:#000;
 }
 ol, ul {
 	list-style: none;
@@ -54,13 +56,19 @@ table {
 
 h1
 {
-	font-family: 'Verdana', 'Arial';
 	font-size: 25px;
+	color:#fff;
 }
 
 h2
 {
 	font-size: 20px;
+	color:#fff;
+}
+
+a
+{
+color:#fff;
 }
 
 img
@@ -72,7 +80,6 @@ header
 {
 	width: 100%;
 	height: 150px;
-	background-color:green;
 	float:left;
 }
 
@@ -80,14 +87,13 @@ header div.logo
 {
 	width:30%;
 	height: 150px;
-	background-color:orange;
 	float:left; 
 	overflow:hidden;
 }
 
 	header div.logo img
 	{
-		width:100%;
+		width:auto;
 	}
 
 
@@ -100,17 +106,17 @@ header .menu
 
 	header div.slogan
 	{
-		height: 50px;
 		width: 100%;
-		background-color:yellow;
+		height: 100px;
+		border:0px solid yellow;
 		float:left;
 	}
 
 	header nav
 	{
 		width: 100%;
-		height: 100px;
-		background-color:red;
+		height: 50px;
+		border:0px solid red;
 		float:left;
 		font-size:1.5em;
 	}
@@ -122,7 +128,7 @@ nav ul li
 {
 	width: 25%;
 	height: 30px;
-	background-color:gray;
+	background-color:#eaa40d;
 	text-align:center;
 	float:left;
 }
@@ -131,19 +137,18 @@ section#content
 {
 	width: 100%;
 	float:left;
-	background-color:blue;
 }
 .widget
 {
 	height:300px;
 	float:left;
-	background-color:grey;
+	background-color:ccc;
 	margin:1% 1%;
 	padding:1% 1%;
 }
 .widget.small
 {
-	
+
 	width:29.3%
 }
 
@@ -159,7 +164,7 @@ section#content
 
 .widget-slideshow 
 {
-	background-image:url('http://images6.fanpop.com/image/photos/33400000/YUMMY-FAST-FOOD-fast-food-33414496-1280-720.jpg');
+	background-color:#cf4347;
 }
 
 .widget-pratos ul
@@ -167,6 +172,10 @@ section#content
 	width:100%;
 }
 
+.widget-pratos ul li
+{
+	font:inherit;
+}
 .widget-pratos ul li.odd
 {
 	background-color:white;
@@ -193,7 +202,7 @@ section#content
 	{
 		font-size:1.5em;
 		font-weight:bold;
-		
+
 	}
 
 	.widget-promocao img
@@ -206,22 +215,21 @@ section#content
 footer
 {
 	width: 100%;
-	height: 100px;
-	background-color:yellow;
+	height: 50px;
+	background-color:#cf4347;
+	float:left;
 }
 
 footer .contact
 {
 	width: 80%;
-	height: 100px;
-	background-color:green;
+	height: 50px;
 	float:left;
 }
 
 footer .thaRestLogo
 {
 	width: 20%;
-	height: 100px;
-	background-color:orange;
+	height: 50px;
 	float:right;
 }
