@@ -3,7 +3,17 @@
 		<title>Rest CMS - Home</title>
 		<meta charset="UTF-8">
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" type="text/css" href="style.css" />		
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  		<script src="js/jquery.slides.min.js"></script>
+  		<script>
+		    $(function(){
+		      $("#slides").slidesjs({
+		        width: 940,
+		        height: 528
+		      });
+		    });
+  		</script>		
 	</head>
 	<body>
 		<header>
@@ -27,7 +37,11 @@
 		</header>
 		<section id="content"> <!-- Content -->
 			<article class="widget widget-slideshow large"> <!-- widget: slideshow size: large -->
-				<img src="" alt="" />
+				<div id="slides"> <!-- Implemented with SlideJS.js -->
+				    <img src="img/slideshow/banner1.jpg" alt=""/>
+				    <img src="img/slideshow/banner2.jpg" alt=""/>
+				    <img src="img/slideshow/banner3.jpg" alt=""/>						
+				</div>
 			</article>
 			<article class="widget widget-pratos medium"> <!-- widget: pratos size: medium -->
 				<div class="title">
