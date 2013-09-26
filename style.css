@@ -181,6 +181,11 @@ section#content
 	background-color:#cf4347;
 }
 
+.widget-slideshow img
+{
+	height:37%;
+}
+
 .widget-pratos ul
 {
 	width:100%;
