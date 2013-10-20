@@ -1,0 +1,97 @@
+﻿.login {	
+	color: $dark-gray;
+	display: inline;
+	font-weight: $font-normal;
+	overflow: hidden;
+	width: auto;
+	.hold-form {
+		margin: 20px auto;
+		width: 309px;
+	}
+	.hold-line {
+		margin: 0 0 10px;
+	}
+	.lbl-left {
+		font-size: 1.3em;
+		float: left;
+		line-height: 31px;
+		width: 111px;
+	}
+	.i-right {
+		line-height: 31px;
+		height: 31px;
+		width: 186px;
+	    .f-left {
+	    	margin-right: 30px;
+	    }
+	}
+	.msg-feedback {
+		color: $blue;
+		margin: 10px 0;
+		overflow: hidden;
+		text-align: right;
+		width: 100%;
+		&.error {
+			color: $light-red;
+		}
+		&.success {
+			color: green;
+		}
+	}
+	.error input {
+		border-color: $light-red;
+	}
+	input.i-right {
+		@extend %i-txt-simple;
+		padding: 0 5px; 
+		&:active, &:focus {
+	        @include box-shadow(0 0 5px rgba(19,55,100,.5), inset 0 2px 3px rgba(0,0,0,.1));
+	        border-color: #133764;
+	    }
+	}
+	.btn-sign-up {
+		color: #fff;
+		font-size: 19px;
+		font-weight: $font-bold;
+		line-height: 60px; 
+		text-align: center;
+	    height: 60px;
+	    width: 309px;
+	    .icon {
+			float: left;
+			margin: 16px 0 0 21px;
+	    }
+	    &.btn-sign {
+			margin-top: 65px;
+		    @include bg-sprite(btn-red); 
+	    }
+	    &.btn-sign-face {	
+		    @include bg-sprite(btn-blue);
+			margin-top: 30px;
+		    .icon { margin-left: 30px; }
+		}
+	}
+	.btn-red {
+		border: 0 none;
+		@include box-shadow(none);
+		color: #fff;
+		cursor: pointer;
+		font-size: 100%;
+		padding: 0 20px;
+		font-weight: $font-bold;
+		text-transform: uppercase;
+		&.btn-login {
+			float: right;
+		}
+	}
+	.more-options-login {
+		float: left;
+		margin-top: 10px;
+		text-align: left;
+		a {
+			display: block;
+			color: $blue; 
+			font-weight: $font-bold;
+		}
+	}
+}
