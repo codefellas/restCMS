@@ -6,7 +6,7 @@ class PilarMVC
 	private $CONFIG_MASTERPAGE_FOOTER = "/view/masterpage/footer.php";
 	private $CONFIG_CONTROLLER_DEFAULT = "home";
 	
-	private $controler = "";
+	private $controler = "teste";
 	private $action = "";
 	private $parameter = "";
 	
