@@ -6,7 +6,11 @@
 		<title>Rest CMS - Home</title>
 		<meta charset="UTF-8">
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		
 		<link rel="stylesheet" type="text/css" href="/css/style.css" />
+		<link rel="stylesheet" type="text/css" href="/css/form.css" />
+		<link rel="stylesheet" type="text/css" href="/css/reservation.css" />
+		
 		
 		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 		<script>
@@ -31,7 +35,9 @@
 		<header>
 			<div class="logo ">
 				<center>
-					<img src="img/logo.jpg" alt="" class="centerDiv"/>
+					<a href="/">
+						<img src="img/logo.jpg" alt="" class="centerDiv"/>
+					</a>
 				</center>
 			</div>
 			<div class="menu">
@@ -41,9 +47,9 @@
 				<nav> <!-- Navigation Bar -->
 					<ul>
 						<li><a href="<?php echo $pilarMVC->url("menu"); ?>">Cardapio</a></li>
-						<li><a href="#">Promoção</a></li>
-						<li><a href="#">Reservas</a></li>
-						<li><a href="#">Contato</a></li>
+						<li><a href="<?php echo $pilarMVC->url("promotion"); ?>">Promoção</a></li>
+						<li><a href="<?php echo $pilarMVC->url("reservation"); ?>">Reservas</a></li>
+						<li><a href="<?php echo $pilarMVC->url("contact"); ?>">Contato</a></li>
 					</ul>
 				</nav>
 			</div>
