@@ -1,0 +1,39 @@
+$SPACING_WIDTH: 0.5%;
+$SPACING_HEIGHT: 10px;
+
+body{
+  font-family: "Open Sans", sans-serif;
+  font-size: 100%;
+  line-height: 14pt;
+  letter-spacing: 0.02em;
+  font-weight: 300;
+  
+  background-color: #ffffff;
+}
+
+section#content
+{
+  width:100% - $SPACING_WIDTH;
+  margin-left: $SPACING_WIDTH;
+  padding-top:$SPACING_HEIGHT;
+  
+  float:left;
+}
+
+h1{
+  font-weight: 200;
+  font-size: 42pt;
+  letter-spacing: 0.00em;
+  line-height: 44pt;
+}
+
+h2{
+  font-weight: 200;
+font-size: 20pt;
+letter-spacing: 0.01em;
+line-height: 22pt;
+
+margin:0;
+float:left;
+width:100%;
+}

@@ -1,0 +1,54 @@
+@import "default";
+
+.widget
+{
+  height:300px;
+  background-color:rgba(155,155,155,0.8);
+  margin-right:0.5%;
+  margin-bottom:10px;
+  
+  float:left;
+}
+
+  .widget.small
+  {
+    /* 33.3% - 3%*/
+    width:32.3%
+  }
+  
+  .widget.medium
+  {
+    /* 50% - 3%*/
+    width:49%;
+  }
+  
+  .widget.large
+  {
+    /* 100% - 3%*/
+    width:99%
+  }
+
+.widget .image
+{
+  width:100%;
+  height:150px;
+  overflow:hidden;
+  
+  
+  float:left;
+}
+
+  .widget .image img
+  {
+    width:100%;
+  }
+
+.widget h2{
+  padding:$SPACING_HEIGHT $SPACING_WIDTH;
+}
+
+.widget p
+{
+  padding:0 $SPACING_WIDTH;
+}
+

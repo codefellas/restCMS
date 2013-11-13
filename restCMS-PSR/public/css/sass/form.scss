@@ -1,0 +1,40 @@
+@import "default";
+
+form {
+  padding:$SPACING_WIDTH $SPACING_HEIGHT;
+  width:100% - ($SPACING_WIDTH * 2) - $SPACING_WIDTH;
+  background-color:#333333;
+  float:left;
+}
+
+form .formRow
+{
+  width:100%;
+  float:left;
+}
+
+form label{
+  padding:$SPACING_WIDTH 0;
+  width:100%;
+  float:left;
+}
+
+input, select, textarea{
+  padding:$SPACING_WIDTH $SPACING_HEIGHT;
+  width:100%;
+}
+
+form .halfSize
+{
+  width:50%;
+}
+
+input, select, textarea .halfSize{
+  padding:$SPACING_WIDTH $SPACING_HEIGHT;
+  width:100% - ($SPACING_WIDTH * 3);
+}
+
+form .button{
+  background-color:red;
+  padding:$SPACING_WIDTH $SPACING_HEIGHT;
+}

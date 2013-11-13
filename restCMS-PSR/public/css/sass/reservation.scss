@@ -1,0 +1,27 @@
+@import "default";
+
+section #form
+{
+	width:100%;
+	float:left;
+
+}
+
+section #map
+{
+	width:100%;
+	float:left;
+}
+
+
+.block1 ,.block2
+{
+	width:50%;
+	float:left;
+	
+}
+
+#datepicker{
+	padding:0 $SPACING_WIDTH;
+	height:20px;
+}

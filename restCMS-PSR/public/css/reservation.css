@@ -1,0 +1,44 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 100%;
+  line-height: 14pt;
+  letter-spacing: 0.02em;
+  font-weight: 300;
+  background-color: #ffffff; }
+
+section#content {
+  width: 99.5%;
+  margin-left: 0.5%;
+  padding-top: 10px;
+  float: left; }
+
+h1 {
+  font-weight: 200;
+  font-size: 42pt;
+  letter-spacing: 0.00em;
+  line-height: 44pt; }
+
+h2 {
+  font-weight: 200;
+  font-size: 20pt;
+  letter-spacing: 0.01em;
+  line-height: 22pt;
+  margin: 0;
+  float: left;
+  width: 100%; }
+
+section #form {
+  width: 100%;
+  float: left; }
+
+section #map {
+  width: 100%;
+  float: left; }
+
+.block1, .block2 {
+  width: 50%;
+  float: left; }
+
+#datepicker {
+  padding: 0 0.5%;
+  height: 20px; }

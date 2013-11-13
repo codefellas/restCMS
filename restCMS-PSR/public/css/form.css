@@ -1,0 +1,58 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 100%;
+  line-height: 14pt;
+  letter-spacing: 0.02em;
+  font-weight: 300;
+  background-color: #ffffff; }
+
+section#content {
+  width: 99.5%;
+  margin-left: 0.5%;
+  padding-top: 10px;
+  float: left; }
+
+h1 {
+  font-weight: 200;
+  font-size: 42pt;
+  letter-spacing: 0.00em;
+  line-height: 44pt; }
+
+h2 {
+  font-weight: 200;
+  font-size: 20pt;
+  letter-spacing: 0.01em;
+  line-height: 22pt;
+  margin: 0;
+  float: left;
+  width: 100%; }
+
+form {
+  padding: 0.5% 10px;
+  width: 98.5%;
+  background-color: #333333;
+  float: left; }
+
+form .formRow {
+  width: 100%;
+  float: left; }
+
+form label {
+  padding: 0.5% 0;
+  width: 100%;
+  float: left; }
+
+input, select, textarea {
+  padding: 0.5% 10px;
+  width: 100%; }
+
+form .halfSize {
+  width: 50%; }
+
+input, select, textarea .halfSize {
+  padding: 0.5% 10px;
+  width: 98.5%; }
+
+form .button {
+  background-color: red;
+  padding: 0.5% 10px; }
