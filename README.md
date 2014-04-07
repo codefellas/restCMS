@@ -1,9 +1,17 @@
-Rest CMS
+# Rest CMS
 
-Um projeto de CMS direcionado para restaurantes.
+_This is an ALPHA implementation just for testing some new stuff_
 
-Construído com PHP, HTML5 e SASS.
+## What am I implementing here?
+1. _HTML with Jade_
+`http://jade-lang.com`
 
-Implementado utilizando PilarMVC.
+2. _CSS with LESS_
+`http://lesscss.org`
 
-Versão de Testes.
+3. _Javascript with CoffeeScript_
+`http://coffeescript.org`
+
+4. _Also maybe NodeJS and MongoDB_ 
+
+
