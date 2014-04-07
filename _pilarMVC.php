@@ -2,8 +2,8 @@
 
 class PilarMVC
 {
-	private $CONFIG_MASTERPAGE_HEADER = "/view/_masterpage/header.php";
-	private $CONFIG_MASTERPAGE_FOOTER = "/view/_masterpage/footer.php";
+	private $CONFIG_MASTERPAGE_HEADER = "./view/_masterpage/header.php";
+	private $CONFIG_MASTERPAGE_FOOTER = "./view/_masterpage/footer.php";
 	private $CONFIG_CONTROLLER_DEFAULT = "home";
 	
 	private $controler = "";
